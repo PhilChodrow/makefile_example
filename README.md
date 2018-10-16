@@ -10,8 +10,12 @@ After cloning into a directory, open a terminal in that directory and type `make
 
 - A sequence of commands executes in your terminal
 - A number of directories are created and populated
-- One of these is pdf, which contains `paper.pdf`. This is the "final product."
+http://www.jonzelner.net/statistics/make/reproducibility/2016/06/01/makefiles/- One of these is pdf, which contains `paper.pdf`. This is the "final product."
 
 The file `paper.pdf` contains some further reflections on the benefits of makefiles. 
 
-This repository is heavily informed by Jenny Bryan's [excellent materials](http://stat545.com/automation04_make-activity.html) on automating data pipelines in her Stat 545 course. 
+Thhttps://bsmith89.github.io/make-bml/is repository is heavily informed by Jenny Bryan's [excellent materials](http://stat545.com/automation04_make-activity.html) on automating data pipelines in her Stat 545 course. I have also found the following pages useful for learning `make` in this context: 
+
+- https://kbroman.org/minimal_make/
+- https://bsmith89.github.io/make-bml/
+- http://www.jonzelner.net/statistics/make/reproducibility/2016/06/01/makefiles/
