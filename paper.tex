@@ -1,0 +1,37 @@
+\documentclass{article}
+\usepackage{graphicx}
+\title{Makefile Example}
+\author{Phil}
+\date{\today}
+\begin{document}
+    \maketitle
+    
+    This is a simple example of multi-language, research-oriented programming using makefiles. 
+    The ``analysis'' has the following steps: 
+    \begin{enumerate}
+        \item Download a data file from the internet using a simple R script.
+        \item Do some basic data processing to that file in Python.
+        \item Visualize the processed data in R.
+        \item Include the results in a paper produced via LaTeX. 
+    \end{enumerate}
+    To run this code, you will need a machine with \texttt{GNU Make} installed (all *nix machines should work), as well as \texttt{python}, \texttt{R}, and \LaTeX. 
+    You also need the the \texttt{pandas} package for \texttt{python} and the \texttt{ggplot2} package for \texttt{R}. 
+    
+    \section{Benefits of Makefiles}
+        A carefully-crafted makefile provides multiple benefits in the context of data-oriented projects. 
+        \begin{enumerate}
+            \item First, a makefile is a machine-readable description of the dependency structure of a project. 
+            It therefore serves as validated documentation of how the parts of your project fit together. 
+            \item Second, a makefile allows you to automatically execute your entire pipeline using a single command (usually \texttt{make all}), and then subsequently ``start from scratch'' by deleting all throughputs (usually \texttt{make clean}). 
+            \item Finally, a makefile automatically manages dependencies. Say that the data processing step is expensive, and you don't want to do it every time. 
+            \texttt{make} will automatically detect when it is necessary to re-do this computation, only doing so if you have deleted the file or changed the script that executes it. 
+            This is very convenient! 
+            Here's an easy way to try this out. 
+            First, delete this line in \texttt{paper.tex} and then run \texttt{make all}, observing what happens. 
+            Then, add a comment to \texttt{process.py}, save, and run \texttt{make all}, and observe the different behavior. 
+        \end{enumerate}
+    
+    \begin{figure}
+        \includegraphics[width=\textwidth]{figs/bar.png}
+    \end{figure}
+\end{document}
