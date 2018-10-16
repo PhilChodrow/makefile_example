@@ -13,3 +13,5 @@ After cloning into a directory, open a terminal in that directory and type `make
 - One of these is pdf, which contains `paper.pdf`. This is the "final product."
 
 The file `paper.pdf` contains some further reflections on the benefits of makefiles. 
+
+This repository is heavily informed by Jenny Bryan's [excellent materials](http://stat545.com/automation04_make-activity.html) on automating data pipelines in her Stat 545 course. 
