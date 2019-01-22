@@ -14,7 +14,7 @@ After cloning into a directory, open a terminal in that directory and type `make
 
 The file `paper.pdf` contains some further reflections on the benefits of makefiles. 
 
-Thhttps://bsmith89.github.io/make-bml/is repository is heavily informed by Jenny Bryan's [excellent materials](http://stat545.com/automation04_make-activity.html) on automating data pipelines in her Stat 545 course. I have also found the following pages useful for learning `make` in this context: 
+This repository is heavily informed by Jenny Bryan's [excellent materials](http://stat545.com/automation04_make-activity.html) on automating data pipelines in her Stat 545 course. I have also found the following pages useful for learning `make` in this context: 
 
 - https://kbroman.org/minimal_make/
 - https://bsmith89.github.io/make-bml/
