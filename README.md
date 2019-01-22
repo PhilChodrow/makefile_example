@@ -10,7 +10,7 @@ After cloning into a directory, open a terminal in that directory and type `make
 
 - A sequence of commands executes in your terminal
 - A number of directories are created and populated
-http://www.jonzelner.net/statistics/make/reproducibility/2016/06/01/makefiles/- One of these is pdf, which contains `paper.pdf`. This is the "final product."
+- One of these is pdf, which contains `paper.pdf`. This is the "final product."
 
 The file `paper.pdf` contains some further reflections on the benefits of makefiles. 
 
