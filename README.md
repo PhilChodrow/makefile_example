@@ -3,7 +3,7 @@
 This is an example of multi-language, research-oriented programming structured by `makefiles`. The following software is required: 
 
 - `GNU Make`, which is present on all Unix machines. 
-- `python` with the `pandas` module
+- `python 3.+` with the `pandas` module
 - `R` with the `ggplot2` package
 
 After cloning into a directory, open a terminal in that directory and type `make all`. The following things should happen: 

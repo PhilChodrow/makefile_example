@@ -20,7 +20,7 @@ data/words.txt: $(dirs)
 # compute the length histogram of words using Python. Requires pandas
 throughput/length_tab.csv: data/words.txt process.py
 	echo "Processing data with python"
-	@python process.py
+	@python3 process.py
 
 # Use R (requires ggplot) to visualize the histogram
 figs/bar.png: make_fig.R throughput/length_tab.csv
